@@ -5,7 +5,7 @@ import face_recognition
 
 # Let's start by inputting an image and getting Python
 # to recognise it!
-picture = face_recognition.load_image_file('girls.jpg')
+picture = face_recognition.load_image_file('me.jpg')
 face_locations = face_recognition.face_locations(picture)
 print(face_locations)
 
